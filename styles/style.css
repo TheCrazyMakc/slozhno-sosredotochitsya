@@ -2,4 +2,27 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: url(../images/cover-image-light.png);
+  background-attachment: fixed;
+  
 }
+
+.header__theme-menu {
+  
+  display: grid;
+  grid-template-columns: 1fr 230px 1fr;
+}
+
+.header__theme-menu-list {
+  list-style-type: none;
+  grid-column-start: 2;
+  display: flex;
+  gap: 10px;
+}
+/* тень для заголовка
+text-shadow: 4px 4px 0 var(--accent-color); */
+
+/* 
+Для нажатой кнопки устанавливается класс .header__theme-menu-button_active. Кнопка должна стать недоступна для клика. Поможет свойство pointer-events: none.
+*/
+
