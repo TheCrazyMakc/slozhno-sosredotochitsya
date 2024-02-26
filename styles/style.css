@@ -19,6 +19,20 @@
   display: flex;
   gap: 10px;
 }
+
+.header__theme-menu-button {
+  background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 1px solid #353430;
+    color: #353430;
+    font-family: 'IBM Plex mono', Arial, sans-serif;
+    text-transform: lowercase;
+    padding: 1.5px 13px;
+}
 /* тень для заголовка
 text-shadow: 4px 4px 0 var(--accent-color); */
 
